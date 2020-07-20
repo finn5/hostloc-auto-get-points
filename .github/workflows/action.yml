@@ -1,11 +1,11 @@
 name: 'Hostloc Auto Get Points'
 
-on:
-  push:
-    branches: 
-      - master
-  schedule:
-    - cron: '45 9 * * *'
+#on:
+  #push:
+  #  branches: 
+  #    - master
+  #schedule:
+  #  - cron: '45 9 * * *'
 
 jobs:
   get_points:
